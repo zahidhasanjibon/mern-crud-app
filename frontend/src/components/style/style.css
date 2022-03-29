@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Prompt:wght@300;400&family=Ramaraja&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Prompt", sans-serif;
+}
+main {
+  padding: 4% 5%;
+}
+.user-card {
+  width: 250px;
+  height: auto;
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 13px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 5px rgb(235, 228, 228);
+}
+img {
+  width: 200px;
+  height: 250px;
+}
+.user-container {
+  display: flex;
+  column-gap: 20px;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  justify-content: center;
+}
+.desc {
+  margin-top: 6px;
+  text-align: left;
+  margin-left: 30px;
+}
+.desc p {
+  padding: 6px 0px;
+}
+.update-btn {
+  margin-right: 8px !important;
+}
